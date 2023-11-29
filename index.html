@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <style>
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #888;
+}
+
+.contact__form {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.contact__form-el {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact__form-el--name:focus,
+.contact__form-el--email:focus,
+.contact__form-el--message:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.contact__form-el--submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact__form-el--submit:hover {
+    background-color: #555;
+}
+
+
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+nav li:hover a {
+    color: #888;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #444;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header,
+        nav,
+        section,
+        footer {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        
+section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #444;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #666;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+section {
+    background-color: #f8f8f8;
+    padding: 40px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #555;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 20px;
+}
+
+section li h3 {
+    color: #444;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+section li p {
+    color: #666;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portfolio de Sofien Belaid</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="academics.html">Parcours académiques</a></li>
+            <li><a href="experiences.html">Expériences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Bienvenue sur le Portfolio de Sofien Belaid</h2>
+        <p>Bonjour, je suis Sofien Belaid, une personne passionnée avec un vif intérêt pour le développement web.</p>
+        <img src="unnamed.jpg" alt="Photo de profil de Sofien Belaid" width="10%">
+    </section>
+
+    <section>
+        <h2>Parcours académiques</h2>
+        <p>Étant un étudiant en 3B,cette année est ma première à ESPRIT. Pendant mes deux dernières années à IPEIN (prépa Nabeul), j'ai suivi divers cours passionnants dans le domaine du
+            développement informatique.</p>
+        <ul>
+            <li>
+                <h3>Cours 1</h3>
+                <p>Description du premier cours. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <h3>Cours 2</h3>
+                <p>Description du deuxième cours. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section>
+        <h2>Expériences</h2>
+        <p>Au fil des années, j'ai acquis des expériences précieuses dans le domaine du développement web et de la
+            science des données.</p>
+        <img src="experience-image1.jpg" alt="Expérience professionnelle 1">
+        <img src="experience-image2.jpg" alt="Expérience professionnelle 2">
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="contact__heading title">Contact Me</h2>
+        <p>Vous pouvez me contacter par email à l'adresse suivante : <a href="mailto:belaid.sofiene@esprit.tn">belaid.sofiene@esprit.tn</a></p>
+        <div class="contact__wrapper wrapper--large">
+            <div class="contact__visual">
+                <img src="location.png" width="30%" >
+            </div>
+            
+            <form class="contact__form">
+                <input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
+                <input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false">
+                <textarea class="contact__form-el contact__form-el--message" placeholder="Your Message"></textarea>
+                <input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Portfolio de Sofien Belaid. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>
